@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Assets;
 
 use App\Http\Controllers\Controller;
 use ReflectionClass;
+use ReflectionMethod;
 use Route;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
