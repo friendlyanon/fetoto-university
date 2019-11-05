@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100vh;
+}
+
+#app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    & > aside {
+        display: none;
+    }
+
+    & > header {
+        padding: 0 100px;
+
+        & > nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            .navbar-right {
+                display: grid;
+                grid-gap: 20px;
+                grid-auto-flow: column;
+            }
+        }
+    }
+
+    & > main {
+        flex-grow: 1;
+        text-align: center;
+        padding: 0 100px;
+    }
+
+    & > footer {
+        padding: 25px 100px;
+    }
+}

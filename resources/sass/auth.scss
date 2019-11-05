@@ -1,0 +1,11 @@
+.card {
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px 25px;
+
+    .card-header {
+        margin: 5px 0;
+        border-bottom: 1px solid grey;
+    }
+}

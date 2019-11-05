@@ -1,0 +1,9 @@
+{
+    "/js/vendor.js": "/js/vendor.js",
+    "/js/app.js": "/js/app.js",
+    "/js/manifest.js": "/js/manifest.js",
+    "/js/gallery.js": "/js/gallery.js",
+    "/js/home.js": "/js/home.js",
+    "/js/upload.js": "/js/upload.js",
+    "/js/user.js": "/js/user.js"
+}
